@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.indexSlidePattern.js"></script>
+		<script type="text/javascript" src="js/fsbanner.js"></script>
+		<link href="uikit/css/uikit.css" rel="stylesheet" type="text/css" />
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" href="css/index.css" rel="stylesheet" />
+		<link type="text/css" href="css/fsbanner.css" rel="stylesheet" />
+		<title>首页-游客</title>
+	</head>
+
+	<body>
+		<div class="uk-grid">
+			<div class="uk-width-1-6 nav_left flex-center hei1">
+				<div class="uk-text-center mar_center">
+					<img src="images/logo.png" style="max-width: 80%;" />
+					<ul class="nav_ul nav_top">
+
+						<li>
+							<a href="login.html">
+								登录
+							</a>
+						</li>
+						<li>
+							<a href="register.html">
+								注册
+							</a>
+						</li>
+						<li>
+							<a href="languagesettings.html">
+								中文
+							</a>
+						</li>
+
+					</ul>
+					<ul class="nav_ul nav_bottom">
+						<li>
+							<a href="companyprofile.html">
+								公司简介
+							</a>
+						</li>
+						<li>
+							<a href="activesandnews.html">
+								新闻动态
+							</a>
+						</li>
+
+						<li>
+							<a href="e-helperlist.html">
+								健康e点通
+							</a>
+						</li>
+						<li>
+							<a href="order_goods.html">
+								产品中心
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+			</div>
+			<div class="uk-width-5-6 index_right">
+				<div class="banner-container" style="height: 100%;">
+
+					<div class="fsbanner" id="demo-3">
+						<div style="background-image:url(images/1.png)"></div>
+						<div style="background-image:url(images/2.png)"></div>
+						<div style="background-image:url(images/3.png)"></div>
+						<div style="background-image:url(images/4.png)"></div>
+						<div style="background-image:url(images/5.png)"></div>
+					</div>
+				</div>
+
+			</div>
+
+			<script>
+				window.onresize = function() {
+
+					$('#demo-3').fsBanner({
+						'trigger': 'mouse'
+					});
+
+				}
+				$('#demo-3').fsBanner({
+					'trigger': 'mouse'
+				});
+			</script>
+	</body>
+
+</html>

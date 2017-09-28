@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--
+        	作者：450541222@qq.com
+        	时间：2017-06-30
+        	描述：js
+        -->
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="uikit/js/uikit.js"></script>
+		<!-- 左侧导航提示效果js begin-->
+		<script type="text/javascript" src="uikit/js/components/tooltip.js"></script>
+		<!-- 左侧导航提示效果js end-->
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<!--css begin-->
+		<link href="uikit/css/uikit.css" rel="stylesheet" type="text/css" />
+		<!-- 左侧导航提示效果 begin-->
+		<link href="uikit/css/components/tooltip.css" rel="stylesheet" type="text/css" />
+		<!-- 左侧导航提示效果 end-->
+
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<title>eLEAD Global卡</title>
+	</head>
+
+	<body>
+		<div class="container applicationrecord">
+			<div class="uk-grid flex hei1">
+				<!-- 左侧导航栏 begin-->
+				<div class="nav left">
+					<div class="uk-grid">
+						<div class="nav_left">
+							<ul class="lg_nav_left">
+								<li data-uk-tooltip="{pos:'right'}" title="0234561">
+									<a>
+										<img src="images/ic-addus.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="个人中心">
+									<a href="my.html">
+										<img src="images/ic-sign.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="查询服务">
+									<a href="queryservice.html">
+										<img src="images/ic-about.png" />
+									</a>
+								</li>
+
+								<li data-uk-tooltip="{pos:'right'}" title="中文">
+									<a href="languagesettings.html">
+										<img src="images/ic-language.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="退出">
+									<a href="tourists-index.html">
+										<i class="uk-icon-sign-out" style="color: #fff;"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="nav_right">
+							
+							<ul class="lg_nav_ri">
+								<li data-uk-tooltip="{pos:'right'}" title="首页">
+									<a href="index.html">
+										<img src="images/ic-index.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="公司">
+									<a href="companyprofile.html">
+										<img src="images/ic-comp.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="新闻">
+									<a href="activesandnews.html">
+										<img src="images/ic-news.png" />
+									</a>
+								</li>
+							
+								<li data-uk-tooltip="{pos:'right'}" title="E点通">
+									<a href="e-helperlist.html">
+										<img src="images/ic-edt.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="产品中心">
+									<a href="order_goods.html">
+										<img src="images/ic-pro.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="经销商须知">
+									<a href="shouldknow.html">
+										<img src="images/ic-jxsxz.png" />
+									</a>
+								</li>
+								<li data-uk-tooltip="{pos:'right'}" title="帮助中心">
+									<a href="hpc-aboutus.html">
+										<img src="images/ic-help.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 左侧导航栏 end-->
+
+				<!--右侧内容区域 begin-->
+				<div class="right">
+					<!-- 960px区域 begin -->
+					<div class="min-container hei1 martop-90">
+							<div class="classify uk-button-dropdown" data-uk-dropdown="{remaintime:100}">
+
+						<img src="images/im-type.png" /><span>分类筛选</span>
+
+						<!-- 这是下拉菜单 -->
+						<div class="uk-dropdown sub_type">
+							<ul>
+								<li>
+									<a href="myorder.html">
+										订单
+									</a>
+								</li>
+								<li>
+									<a href="myaccount.html">
+										eWallet
+									</a>
+								</li>
+								<li>
+									<a href="mycoupon.html">
+										优惠券
+									</a>
+								</li>
+								<li>
+									<a href="invite.html">
+										邀请加入
+									</a>
+								</li>
+								<li>
+									<a href="myaddress.html">
+										收货地址
+									</a>
+								</li>
+								<li>
+									<a href="information.html">
+										个人资料
+									</a>
+								</li>
+								<li>
+									<a href="automatedtransfer.html">
+										自动运送
+									</a>
+								</li>
+								<li class="typepe_active">
+									<a href="applicationrecord.html">
+										申请
+									</a>
+								</li>
+								<li>
+									<a href="languagesettings.html">
+										语言设置
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				
+						<h1 class="uk-text-bold uk-text-large">
+							申请eLEAD Global卡
+						</h1>
+						<hr>
+						<article class="" style="line-height: 30px;">
+							申请前，您须确保您的账户已通过身份审批且处于正常状态。
+
+							<br><br><br>敬请注意，为了您的账户安全，请您详细、如实地填写相关资料。您一旦提交申请，即表示您承诺您所提交之信息真实且准确无误。提交申请后，您的账户资料将不能改动，如因您提供之信息有误而导致的一切损失，均由您本人全权负责。
+
+							<br><br><br>一旦您提交申请，即表示您同意从您的eWallet中支付17美金，其中7美金为易票联（epaylinks）收取的手续费，10美金将转入您的eLEAD Global卡内。如果您的eWallet账户中没有足够的余额/或者未开通，则无法完成申请/申请不成功。即您必须确保在您申请前已开通eWallet，且eWallet内余额不少于17美金。
+
+							<br><br><br>您须知晓并认可eLEAD Global卡由伊环球授权易票联（epaylinks）发行，并非隶属于伊环球公司。eLEAD Global卡相关使用条款均由易票联（epaylinks）定制，卡片相关手续费亦由易票联收取，与伊环球无任何关联。如欲知晓eLEAD Global卡的相关详情，请登录易票联官方网站（www.globalcash.hk）查阅。
+							<br><br>
+							<input type="checkbox" /><span class="uk-text-muted">本人同意并遵守以上条款</span>
+							<br><br><br>
+							<a class="uk-button  uk-width-1-3 a_btn">保存</a>
+							<br><br><br>
+						</article>
+					</div>
+				</div>
+				<!--右侧内容区域 end-->
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
